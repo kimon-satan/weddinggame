@@ -1,0 +1,57 @@
+{
+	"table1": {
+		"opener": "b",
+		"map":{
+			"a":"a",
+			"b":"a",
+			"c":"exit",
+			"d":"table2",
+			"e":"",
+			"?":"exit"
+		}
+	},
+	"table2": {
+		"opener": "b",
+		"map":{
+			"a":"d",
+			"b":"b",
+			"c":"b",
+			"d":"table3",
+			"e":"",
+			"?":"exit"
+		}
+	},
+	"table3": {
+		"opener": "c",
+		"map":{
+			"a":"",
+			"b":"a",
+			"c":"d",
+			"d":"d",
+			"e":"table4",
+			"?":"exit"
+		}
+	},
+	"table4": {
+		"opener": "c",
+		"map":{
+			"a":"d",
+			"b":"",
+			"c":"c",
+			"d":"e",
+			"e":"table4",
+			"?":"exit"
+		}
+	},
+	"table5": {
+		"opener": "",
+		"map":{
+			"a":"",
+			"b":"",
+			"c":"",
+			"d":"d",
+			"e":"table1",
+			"?":"exit"
+		}
+	}
+}
